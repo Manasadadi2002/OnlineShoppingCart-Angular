@@ -1,0 +1,30 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: rgb(56, 17, 230);
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+.btn {
+    background-color: rgb(251, 226, 38);
+    color: rgb(1, 0, 0);
+}
+
+.btn:hover {
+    background-color: rgb(191, 242, 247);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+span {
+    color: rgb(0, 119, 255);
+}
